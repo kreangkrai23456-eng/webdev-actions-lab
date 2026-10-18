@@ -177,6 +177,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 /* Contact */
+.links { display: flex; flex-wrap: wrap; gap: 10px; }
 .mail {
   display: inline-block; padding: 10px 18px;
   color: var(--ink); text-decoration: none; font-weight: 500;
